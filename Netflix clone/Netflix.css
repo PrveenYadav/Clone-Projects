@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 90vh;
+    position: relative;
+}
+.main nav div{
+    position: absolute;
+    right: 200px;
+}
+.main nav span{
+    position: absolute;
+    left: 180px;
+}
+
+.main .box{
+    box-shadow: inset 5em 5em 55em 5em rgb(0, 0, 0);
+    height: 90vh;
+    width: 100%;
+    opacity: 0.67;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav{
+    max-width: 80vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+}
+
+nav img{
+    color: red;
+    width: 148px;
+    height: 40px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding:0 30px;
+    /* font-family: 'Rubik', sans-serif; */
+}
+
+.hero> :nth-child(1){
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sepration{
+    background-color: rgb(35, 35, 35);
+    height: 8px;
+}
+
+.btn{
+    padding: 8px 36px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid rgb(120, 119, 119);
+}
+
+.btn-red{
+    background-color: red;
+    /* color: white; */
+    padding: 3px 24px;
+    font-size: 20px;
+    /* border-radius: 6px; */
+    width: 200px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-red-sm{
+    background-color: red;
+    padding: 8px 15px;
+    /* color: white; */
+    border: none;
+    margin-left: 24px;
+    cursor: pointer;
+}
+
+.hero input{
+    font-size: 17px;
+    padding: 3px 24px;
+    border-radius: 7px;
+    background-color: transparent;
+    color: white;
+    width: 368px;
+    height: 50px;
+    border: 1px solid rgb(120, 119, 119);
+    margin-right: 5px;
+}
+::placeholder{
+    color: rgb(162, 162, 162);
+}
+
+section{
+    height: 600px;
+}
+
+/* firsst section */
+
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 62px;
+    margin-left: 170px;
+}
+
+.first h1{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.first p{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.secimg img{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+.secimg video{
+    height: 365px;
+    width: 345px;
+    position: relative;
+    right: 410px;
+}
+
+.sepration2{
+    background-color: rgb(48, 47, 47);
+    height: 9px;
+}
+
+/* second sectin */
+
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 62px;
+    margin-right: 170px;
+}
+
+.second h1{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.secimg2 img{
+    /* width: vw; */
+    position: relative;
+    z-index: 10;
+}
+.secimg2 .s1{
+    position: relative;
+    left: 140px;
+    bottom: 130px;
+    z-index: 10;
+
+    background-color: black;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 340px;
+    height: 80px;
+}
+
+.secimg2 div img{
+    
+    margin: 3px;
+    height: 70px;
+}
+
+.secimg2 .s2{
+    position: relative;
+    left: 80px;
+    bottom: 60px;
+}
+
+.secimg2 div h5{
+    font-size: 17px;
+}
+
+.secimg2 div p{
+    font-size: 14px;
+    color: rgb(114, 114, 255);
+    
+}
+.second p{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.sepration3{
+    background-color: rgb(35, 35, 35);
+    height: 8px;
+}
+
+/* section third */
+
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 62px;
+    margin-left: 170px;
+}
+
+.t1 h1{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.t1 p{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.third .t2{
+    height: 556px;
+    width: 741px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t2 img{
+    position: absolute;
+    z-index: 10;
+
+}
+.t2 video{
+    position: relative;
+    bottom: 70px;
+    width: 26vw;
+}
+
+/* fourth section */
+
+.fourth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* gap: 1px; */
+    /* margin-left: 170px; */
+} 
+
+/* .fi img{
+    height: ;
+} */
+
+.f2 h1{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.f2 p{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* section fifth */
+
+.fifth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height:870px;
+    /* gap: 1px; */
+    /* margin-left: 170px; */
+} 
+
+h2{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 80px;
+}
+
+.ff{
+    /* display: block;
+    align-items: center;
+    justify-content: center; */
+    /* border: 2px solid white; */
+    height: 575px;
+    width: 75vw;
+}
+
+.ff .bt1{
+    margin-bottom: 10px;
+    font-size: 24px;  
+    background-color: rgb(49, 49, 49);
+    padding: 30px;
+    /* border: 2px solid yellow; */
+    width: 71vw;
+    /* height: 50px; */
+}
+
+.ff .bt1 i{
+    position: absolute;
+    left: 1290px;
+    /* right: 0; */
+}
+
+.ff .bt1:hover{
+    background-color:rgb(78, 77, 77) ;
+    cursor: pointer;
+}
+
+/* new input */
+
+#newp p{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    /* border: 2px solid red; */
+    position: relative;
+    bottom: 90px;
+}
+
+.input2{
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+}
+
+.input2 input{
+    font-size: 17px;
+    padding: 3px 24px;
+    border-radius: 7px;
+    background-color: transparent;
+    color: white;
+    width: 368px;
+    height: 50px;
+    border: 1px solid rgb(120, 119, 119);
+    margin: 5px;
+}
+::placeholder{
+    color: rgb(162, 162, 162);
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    padding: 100px;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width:70vw;
+    padding: 50px;
+
+    position: relative;
+    top: 10px;
+    /* bottom: 30px; */
+    right: 100px;
+}
+
+footer ul{
+    list-style: none;
+    color: rgb(183, 182, 182);
+}
+footer p a{
+    color: rgb(183, 182, 182);
+}
+li a{
+    color: rgb(183, 182, 182);
+}
+li{
+    margin-bottom: 20px;
+}
+ul p{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+/* 
+This is for moodes 
+*/
+
+
+.light{
+    color: black;
+    background-color: white;
+}
+
+.dark{
+    color: white;
+    background-color: black;
+}
