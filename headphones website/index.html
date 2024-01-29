@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Headphones Website</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+     
+</head>
+<body>
+
+   <!-- header design -->
+   <header>
+    <a href="#" class="logo"><i class="fa-solid fa-headphones-simple"></i> Soundbox </a>
+
+    <ul class="navbar">
+        <li><a href="#" class="active">Overview</a></li>
+        <li><a href="#">Teach Specs</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+
+    <div class="header-icons">
+        <div id="firsti"><i class="fa-solid fa-cart-plus"></i></div>
+        <div class="bx bx-menu" id="menu-icon"><i class="fa-solid fa-bars"></i></div>
+
+    </div>
+   </header>
+
+   <!-- home design -->
+   <section class="home">
+    <div class="home-img">
+        <img src="product2.png" class="one">
+    </div>
+
+    <div class="home-text">
+        <h1>Wireless <br> Headphones</h1>
+        <h5>The smarter way to listen</h5>
+        <h3>$199.00</h3>
+        <a href="#" class="btn">Shop Now</a>
+    </div>
+
+   </section>
+
+   <div class="main">
+    <div class="row">
+        <li><img src="main2.png" onclick="slider('product2.png')"></li>
+    </div>
+
+    <div class="row row2">
+        <li><img src="main3.png" onclick="slider('product3.png')"></li>
+    </div>
+
+    <div class="row row3">
+        <li><img src="main1.png" onclick="slider('product1.png')"></li>
+    </div>
+
+   </div>
+
+   <script type="text/javascript">
+      function slider(anything){
+        document.querySelector('.one').src = anything;
+      };
+   </script>
+
+</body>
+</html>
